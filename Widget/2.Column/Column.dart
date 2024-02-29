@@ -23,7 +23,8 @@ class myApp extends StatelessWidget {
             border: Border.all(width: 4)
           ),
           child: Column(
-
+            // Y axis is main Axis in case of colun
+            // X is crossAxis
             mainAxisAlignment: MainAxisAlignment.spaceBetween,//align the children verticall
             crossAxisAlignment: CrossAxisAlignment.center,//align horizontally
             children: [
